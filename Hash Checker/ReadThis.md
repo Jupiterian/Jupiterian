@@ -1,12 +1,12 @@
-## Overview
+# Overview
 This is a hash checking script. To use, simply paste the original hash, the file path, and the algorithm you want it to compute in. Then it will tell you if the checksums match.
 
-## COMMON ERRORS
+# COMMON ERRORS
 The following are common errors that people face.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# FIPS CRYPTOGRAPHY IS ENABLED
+## FIPS CRYPTOGRAPHY IS ENABLED
 If you have enabled on FIPS Cryptography algorithms to run on your computer, then you will not be able to use old checksums such as MD5 and SHA1. 
 Fix:
 Open secpol.msc
