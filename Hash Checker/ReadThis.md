@@ -4,7 +4,6 @@ This is a hash checking script. To use, simply paste the original hash, the file
 # COMMON ERRORS
 The following are common errors that people face.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## FIPS CRYPTOGRAPHY IS ENABLED
 If you have enabled on FIPS Cryptography algorithms to run on your computer, then you will not be able to use old checksums such as MD5 and SHA1. 
@@ -13,3 +12,5 @@ Open secpol.msc
 Go to Local Policies > Security Options
 Scroll down and double click System Cryptography: Use FIPS Compliant algorithms for encryption, hashing, and signing
 Set the value to "Disabled"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
