@@ -1,3 +1,5 @@
+#A Disord Bot For your team
+#Some settings may need to be a filled out
 Token = '<Enter Token Here>'
 
 import discord
