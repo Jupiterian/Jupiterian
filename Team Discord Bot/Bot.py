@@ -223,37 +223,34 @@ async def live_weather(interaction:discord.Interaction, region: str):
     await interaction.response.send_message(embed=weather_embed)
 
 @bot.tree.command(name="iss", description="Get the current location of the ISS")
-async def ISS(interaction:discord.Interaction):
-    ISS_embed = discord.Embed(color=0x42f5a4)
-    data1 = urllib.request.urlopen("http://api.open-notify.org/iss-now.json")
-    data2 = urllib.request.urlopen("http://api.open-notify.org/astros.json")
-
-    #Lat & Long
-    obj = json.loads(data1.read())
-    lat = obj["iss_position"].get("latitude")
-    long = obj["iss_position"].get("longitude")
-
-    geolocator = Nominatim(user_agent="my-app")
-    location = geolocator.reverse(f"{lat}, {long}")
-    if location is not None:
-        location_translate = translate.Translator(from_lang="autodetect", to_lang="en")
-        final_location = location_translate.translate(location.address)
-        if final_location == "PLEASE SELECT TWO DISTINCT LANGUAGES":
-            ISS_embed.add_field(name="Location", value=location.address)
-
-        else:
-            ISS_embed.add_field(name="Location", value=final_location)
-    coordinates = f"{lat}, {long}"
-    ISS_embed.add_field(name="Latitude and Longitude", value=coordinates)
-    #People OnBoard
-    obj = json.loads(data2.read())
-    num = int(obj["number"]) 
-    count = 0
-    people_on_board = []
-    while count < num:
-        people_on_board.append(obj["people"][count].get("name"))
-        count +=1
-    ISS_embed.add_field(name=f"Humans in Space ({num})", value=people_on_board)
+async def ISS(interaction: discord.Interaction):
+    ISS_embed = discord.Embed(color=0x1E90FF)
+    
+    async with aiohttp.ClientSession() as session:
+        async with session.get("http://api.open-notify.org/iss-now.json") as resp1:
+            data1 = await resp1.json()
+        async with session.get("http://api.open-notify.org/astros.json") as resp2:
+            data2 = await resp2.json()
+    
+    # Latitude & Longitude
+    lat, long = data1["iss_position"]["latitude"], data1["iss_position"]["longitude"]
+    
+    geolocator = Nominatim(user_agent="my-app", timeout=10)
+    try:
+        location = geolocator.reverse((lat, long), language="en")
+        final_location = location.address if location else "Unknown"
+    except Exception:
+        final_location = "Location lookup failed"
+    
+    ISS_embed.add_field(name="Location", value=final_location)
+    ISS_embed.add_field(name="Latitude and Longitude", value=f"{lat}, {long}")
+    
+    # People Onboard
+    people_on_board = [person["name"] for person in data2.get("people", [])]
+    ISS_embed.add_field(name=f"Humans in Space ({len(people_on_board)})", 
+                        value=", ".join(people_on_board) if people_on_board else "No data")
     ISS_embed.set_footer(text="Powered by open-notify.org API")
+    
     await interaction.response.send_message(embed=ISS_embed)
+
 bot.run(Token)
