@@ -33,3 +33,7 @@ print(f"The MAD is {statistics.mean(MAD)}.")
 
 #Mode
 print(f"The mode is {statistics.mode(data)}.")
+
+#Standard Deviation
+std_dev = statistics.stdev(data)
+print(f"The standard deviation is {std_dev}")
