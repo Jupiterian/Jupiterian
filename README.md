@@ -6,9 +6,10 @@
 - 🛡️ Aspiring cybersecurity expert
 - 🎾 Sports enthusiast
 
-## 💼 Current Projects
+## 💼 Completed Projects
 
-- **ATP Singles Rankings Data Analysis**  
+- [**ATP Singles Rankings Data Analysis**](https://github.com/Jupiterian/ATP-Singles-Rankings-Data-Analysis/tree/main)
+
   Exploring and analyzing ATP tennis player rankings using real-world data and statistical techniques.
 
 ## 🛠️ Skills & Tools
