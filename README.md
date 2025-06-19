@@ -3,7 +3,7 @@
 ## 👤 About Me
 
 - 🏫 Middle School Student passionate about technology
-- 🛡️ Aspiring cybersecurity expert
+- 🛡️ CyberPatriot National Finalist
 - 🎾 Sports enthusiast
 
 ## 💼 Completed Projects
