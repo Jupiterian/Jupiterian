@@ -2,7 +2,7 @@
 
 ## 👤 About Me
 
-- 🏫 Middle School Student passionate about technology
+- 🏫 High School Student passionate about technology
 - 🛡️ CyberPatriot National Finalist
 - 🎾 Sports enthusiast
 
