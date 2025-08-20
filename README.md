@@ -8,7 +8,7 @@
 
 ## 💼 Completed Projects
 
-- [**ATP Singles Rankings Data Analysis**](https://github.com/Jupiterian/ATP-Singles-Rankings-Data-Analysis/tree/main)
+- [**ATP Rankings Data Visualization**](https://github.com/Jupiterian/ATP-Singles-Rankings-Data-Analysis/tree/main)
 
   Exploring and analyzing ATP tennis player rankings using real-world data and statistical techniques.
 
