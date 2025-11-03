@@ -12,7 +12,8 @@
 
   Exploring and analyzing ATP tennis player rankings using real-world data and statistical techniques.
 
-  Accessible here - with API! : https://atp-rankings-data-visualization.onrender.com/ 
+  Accessible here - with API! : https://atp-rankings-data-visualization.onrender.com/
+  Updated to use an MCP server. You can now integrate with Claude.
 
 ## 🛠️ Skills & Tools
 
