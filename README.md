@@ -5,6 +5,7 @@
 - 🏫 High School Student passionate about technology
 - 🛡️ 1x CyberPatriot National Finalist
 - 🎾 Sports enthusiast
+![Profile view counter on GitHub](https://komarev.com/ghpvc/?username=Jupiterian)
 
 ## 💼 Completed Projects
 
