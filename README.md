@@ -9,6 +9,8 @@
 
 ![Profile view counter on GitHub](https://komarev.com/ghpvc/?username=Jupiterian)
 
+[Personal Website](https://jupiterian.github.io)
+
 ## 💼 Completed Projects
 
 - [**ATP Rankings Data Visualization**](https://github.com/Jupiterian/ATP-Singles-Rankings-Data-Analysis/tree/main)
