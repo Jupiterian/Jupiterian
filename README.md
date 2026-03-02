@@ -2,9 +2,10 @@
 
 ## 👤 About Me
 
-- 🏫 High School Student passionate about technology
-- 🛡️ 2x CyberPatriot National Finalist
-- 🎾 Sports enthusiast
+- High School Student passionate about technology
+- 2x CyberPatriot National Finalist
+- AIML enthusiast looking to gain more experience in the field
+
 <br/>
 
 ![Profile view counter on GitHub](https://komarev.com/ghpvc/?username=Jupiterian)
@@ -33,8 +34,8 @@
 
 
 - **Focus Areas:**  
-  - Cybersecurity & CyberPatriot competitions
-  - Data analysis & visualization
+  - Cybersecurity and CyberPatriot competitions
+  - AI systems and Machine Learning
 
 ## 📈 GitHub Stats
 
