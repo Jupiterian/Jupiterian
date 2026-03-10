@@ -10,7 +10,7 @@
 
 ![Profile view counter on GitHub](https://komarev.com/ghpvc/?username=Jupiterian)
 
-[Personal Website](https://jupiterian.github.io)
+[Personal Website](https://ishanjha.com)
 
 ## 💼 Completed Projects
 
