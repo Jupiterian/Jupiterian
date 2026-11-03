@@ -12,19 +12,6 @@
 
 [Personal Website](https://ishanjha.com)
 
-## 💼 Completed Projects
-
-- [**ATP Rankings Data Visualization**](https://github.com/Jupiterian/ATP-Singles-Rankings-Data-Analysis/tree/main)
-
-  Exploring and analyzing ATP tennis player rankings using real-world data and statistical techniques.
-
-  Accessible here - with API! : https://atp-rankings-data-visualization.onrender.com/
-  Updated to use an MCP server. You can now integrate with Claude.
-- [**MRI and Language Based Dementia Evaluation and Risk Scoring**](https://devpost.com/software/alzheimer-predictor?ref_content=user-portfolio&ref_feature=in_progress)
-
-  Analyzing MRI and lanugage data to diagnose and evaluate Dementia. Uses PyTorch, Matplotlib, Numpy, Pandas, and google colab.
-  [Colab](https://colab.research.google.com/drive/1mveHnvKU6ybwaEHYm4RdW5rgqJMy7QQO?usp=sharing)
-  [YouTube Demonstration](https://youtu.be/dBQfEIdj0Vc)
 ## 🛠️ Skills & Tools
 **Languages:**  
   ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)  ![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?logo=powershell&logoColor=white)  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)  ![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)  ![Dart](https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white)  ![SQL](https://img.shields.io/badge/-SQL-336791?logo=postgresql&logoColor=white)  ![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnubash&logoColor=white)  ![C++](https://img.shields.io/badge/-C%2B%2B-00599C?logo=cplusplus&logoColor=white)
